@@ -1,0 +1,121 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.Apartman {
+    text-align: center;
+    padding: 40px 20px;
+    flex: 1;
+}
+
+.Apartman h1 {
+    font-size: 36px;
+    color: #1e1e1f;
+    margin-bottom: 20px;
+}
+
+.Apartman p {
+    font-size: 20px;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+}
+
+.Apartman table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border-collapse: collapse;
+    width: 80%;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.Apartman th, .Apartman td {
+    border: 1px solid #ccc;
+    padding: 12px 20px;
+}
+
+.Button_Back a {
+    background: black;
+    color: #fff;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    position: fixed;
+    top: 90%;
+    right: 5%;
+}
+
+.Button_Back a:hover {
+    background: #fff;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .Button_Back a {
+        position: static;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .Apartman h1 {
+        font-size: 28px;
+    }
+
+    .Apartman table {
+        width: 100%;
+    }
+
+    .Apartman p {
+        font-size: 18px;
+    }
+}
+
+.Bottom {
+    text-align: center;
+    background-color: #1e1e1f;
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
+}
+
+.Bottom h1, .Bottom h3 {
+    color: white;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.Bottom h1 span, .Bottom h3 span {
+    color: rgb(167, 167, 167);
+    font-size: 15px;
+}
+
+.Bottom a img {
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.Bottom p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    color: #aaa;
+}

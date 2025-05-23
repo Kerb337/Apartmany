@@ -1,0 +1,232 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}  
+
+
+.Button a{
+    text-align: center;    
+    background: black;
+    color: #fff;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: 4s;
+}
+.Button a:hover{
+        background: #fff;
+        color: black;
+}
+
+.uvod{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(img/A1O1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 20s infinite ease-in-out;
+}
+.uvod_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+.uvod_text h1{
+    color: rgb(255, 255, 255);
+    letter-spacing: 15px;
+}
+.uvod_text h1 span{
+    color: rgb(0, 0, 0);
+}
+.uvod_text a{
+    background: black;
+    color: #fff;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: 6s;
+}
+.uvod_text a:hover{
+    background: #fff;
+    color: black;
+}
+@keyframes change{
+    0%
+    {
+        background-image: url(img/A1O1.jpg);
+    }
+    25%
+    {
+        background-image: url(img/A1P1.jpg);
+    }
+    50%
+    {
+        background-image: url(img/A2K1.jpg);
+    }
+    75%
+    {
+        background-image: url(img/A2J1.jpg);
+    }
+    100%
+    {
+        background-image: url(img/A2O1.jpg);
+    }
+}
+
+.kdenasnajit{
+   text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.kdenasnajit h1{
+    color: black;
+    font-size: 50px;
+}
+
+.kdenasnajit p{ 
+ color: black;
+ font-size: 25px;
+}
+
+.mapa{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+.ubytovani{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.ubytovani h1{
+    color: black;
+    font-size: 50px;
+}
+
+.ubytovani p{ 
+ color: black;
+ font-size: 25px;
+}
+
+.Okoli{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.Okoli h1{
+    color: black;
+    font-size: 50px;
+}
+
+.Okoli p{ 
+ color: black;
+ font-size: 25px;
+}
+
+.kdenasnajit_btn{
+text-align: center;
+margin: 0;
+padding-top: 20px;
+padding-bottom: 20px;
+width: 100%;
+}
+
+.cenik{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.cenik h1{
+    color: black;
+    font-size: 50px;
+}
+
+.cenik p{ 
+ color: black;
+ font-size: 25px;
+}
+
+.Button_Back a{
+    background: black;
+    color: #fff;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: 4s;
+}
+.Button_Back a:hover{
+    background: #fff;
+    color: black;
+}
+
+.Back{
+ right: 5%;
+ top: 90%;
+ position: fixed;
+}
+
+.Bottom{
+    text-align: center;
+    background-color: #1e1e1f;
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.Bottom h1{
+    Color: white;
+    font-size: 18px;
+}
+
+
+.Bottom h1 span{
+    Color: rgb(167, 167, 167);
+    font-size: 15px;
+}
+
+.kontakty{
+    text-align: left;
+}
+
+
+
+
